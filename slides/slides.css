@@ -27,8 +27,9 @@ h1, h3 {
 
 a, a > code {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #A7D5E8;
+  color: #EA625E;
   text-decoration: none;
+  font-size: 16px;
 }
 
 .remark-slide-content{

@@ -39,11 +39,9 @@ class: center
 ---
 # ¿Por qué aprender ArcGIS?
 
-```{r, echo=FALSE}
-htmltools::includeHTML("html/google-trends.html")
-```
+  <img src='img/googletrend.png' alt='google-trend' width='100%' height='100%' class='center'>
 
-
+ <a href="https://trends.google.com/" class='center'> Más información </a>
 
 
 
