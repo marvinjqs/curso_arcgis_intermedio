@@ -4,8 +4,9 @@
 
 
 body { 
-  font-family: 'Source Sans Pro'; sans-serif;
-  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000;
+  text-align:justify;
 }
 p {
   padding: 0;
@@ -14,14 +15,14 @@ p {
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  color: #0a2570;
+  color: #074a66;
   font-size: 12px;
   margin: 0 0 0.5em 0;
 }
 h1, h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  color: #0a2570;
+  color: #074a66;
 }
 
 a, a > code {
@@ -57,10 +58,15 @@ a, a > code {
   color: #0c46e8;
 }
 
-.title-slide h2, .title-slide h3 {
+.title-slide h2 {
   color: #0a0a0a;
-  font-size: 25px;
+  font-size: 30px;
+}
   
+.title-slide h3 {
+  color: #0a0a0a;
+  font-size: 20px;
+  font-family: "Arial Narrow", Arial
 }
 
 /* Code formatting */
@@ -73,14 +79,21 @@ a, a > code {
 
 
 /* Two-column layout */
+.left-column-image {
+  color: #000000;
+  width: 40%;
+  height: 92%;
+  float: left;
+}
+
 .left-column {
-  color: #777;
-  width: 20%;
+  color: #000000;
+  width: 60%;
   height: 92%;
   float: left;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #000;
+  color: #000000;
 }
 .right-column {
   width: 75%;
@@ -141,19 +154,23 @@ blockquote {
 }
 
 
-/* Lists */
+/* Listas*/
+
 ul {
   list-style: none;
 }
 li::before {
   content: "✚"; 
-  color: #A7D5E8; 
+  color: #6dc2b5; 
   display: inline-block; 
   width: 1.5em;
   margin-left: -1.5em
 }
 li{
   margin: 10px 0;
+  color: #000000;
+  text-align: justify;
+  font-size: 22px;
 }
 
 

@@ -1,7 +1,7 @@
 ---
 title: "ArcGIS <br/> Nivel Intermedio"
-subtitle: "<br/>"
-author: "Marvin J. Quispe Sedano <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
 date: "Lima, 2020"
 output:
   xaringan::moon_reader:
@@ -21,13 +21,34 @@ output:
 library(tidyverse)
 library(emo)
 ```
+class: center
 
-class: center, middle
+## Acerca de mí
 
-# Hello world!
+.left-column-image[
+  <img src='img/marvin-github.png' alt='marvin-profile' width='240' height='430' class='center'>
+]
+
+.left-column[
+- Ingeniería ambiental / UNALM.
+- Consultor del International Potato Center (CIP/CGIAR) en el área de Research Informatics Unit (RIU).
+- Vicepresidente del Círculo de Investigación en Minería y Medio Ambiente (CIMMA/UNALM).
+- Docente con más de 150 horas de experiencia en el dictado de cursos de Sistemas de Información Geográfica con ArcGIS, R y Python.
+ ]
 
 ---
+# ¿Por qué aprender ArcGIS?
 
+```{r, echo=FALSE}
+htmltools::includeHTML("html/google-trends.html")
+```
+
+
+
+
+
+
+---
 ## What is data science?
 
 - <i class="fa fa-database fa"></i> + <i class="fa fa-flask fa"></i> = data science?
