@@ -16,16 +16,16 @@ src="https://img.shields.io/github/license/marvinjonathcn/curso_arcgis_basico?la
 
 Este corresponde a un template para confeccionar enunciados de controles/examenes en latex, contiene funciones básicas para agregar imágenes, párrafos, fórmulas, etc.
 
-#### DOCENTE
+### DOCENTE
 
 | Nombre                  | Github        |  Email         |
 |:--------------------    |:--------------| :--------------|
 | Marvin j. Quispe Sedano | [@marvinjonathcn](https://github.com/marvinjonathcn)| marvinjqs@gmail.com |
 
 
-#### TEMARIO
+### TEMARIO
  
-##### CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html).
+#### CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html).
  
 - ¿Qué son los GIS?
 - Componentes de los GIS
