@@ -25,7 +25,7 @@ Este corresponde a un template para confeccionar enunciados de controles/examene
 
 ### TEMARIO
 
-| [PRESENTACIÓN DEL CURSO](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html)  &nbsp;  |
+| 🌏 CLASE 1: [PRESENTACIÓN DEL CURSO](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html)  &nbsp;  |
 |:--------------------|
 |                     |
  
