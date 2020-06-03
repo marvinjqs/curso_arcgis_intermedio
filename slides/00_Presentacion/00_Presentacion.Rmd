@@ -1,0 +1,191 @@
+---
+title: "ArcGIS <br/> Nivel Intermedio"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+date: "Lima, 2020"
+output:
+  xaringan::moon_reader:
+    css: "../my-theme.css"
+    lib_dir: libs
+    nature:
+      highlightLines: true
+      highlightStyle: solarized-dark
+      countIncrementalSlides: true
+      
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(emo)
+```
+class: center
+
+## Acerca de mí
+
+.left-column-image[
+  <img src='img/marvin-github.png' alt='marvin-profile' width='240' height='430' class='center'>
+]
+
+.left-column[
+- Ingeniería ambiental / UNALM.
+- Consultor del International Potato Center (CIP/CGIAR) en el área de Research Informatics Unit (RIU).
+- Vicepresidente del Círculo de Investigación en Minería y Medio Ambiente (CIMMA/UNALM).
+- Docente con más de 150 horas de experiencia en el dictado de cursos de Sistemas de Información Geográfica con ArcGIS, R y Python.
+ ]
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  <img src='img/googletrend.png' alt='google-trend' width='100%' height='100%' class='center'>
+
+ <a href="https://trends.google.com/" class='center'> Acceder a Google Trends </a>
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  <img src='img/arcmap-doc.gif' alt='arcgis-doc' width='100%' height='100%' class='center'>
+
+ <a href="https://desktop.arcgis.com/es/arcmap/" class='center'> Acceder a la documentación de ArcGIS Desktop </a>
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  <img src='img/ag-storymap.gif' alt='arcgis-online' width='100%' height='100%' class='center'>
+
+ <a href="https://www.arcgis.com/" class='center'> Acceder a la web de ArcGIS </a>
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 1 : FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (GIS) </b>
+
+- ¿Qué son los GIS?
+- Componentes de los GIS
+- Conceptos geodésicos básicos
+- Elipsoide y Datum
+- Las proyecciones cartográficas
+- La Información geográfica y sus componentes
+- Aplicaciones de los GIS
+- ArcGIS y sus componentes principales
+- ArcGIS for Desktop: ArcMap, ArcCatalog, ArcToolbox
+- La representación vectorial y sus formatos
+- Multiarchivo shapefile (.shp)
+- La representación raster y sus formatos
+- El Geopackage
+- ¿Dónde puedo descargar información geográfica?
+- Servicios WMS
+- El geoprocesamiento
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 2 :  FUNDAMENTOS DE LA TELEDETECCIÓN </b>
+
+- 
+- 
+- 
+- 
+- 
+- 
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 3 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM) </b>
+
+- 
+- 
+- 
+- 
+- 
+- 
+
+---
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 4 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES </b>
+
+- 
+-
+- 
+- 
+- 
+
+---
+
+
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 5 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" </b>
+
+- 
+-
+- 
+- 
+- 
+- 
+
+---
+
+## Sistema de evaluación
+
+- Trabajos encargados  &nbsp;  &nbsp;| 30%
+- Examen teórico &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; | 30%
+- Proyecto final &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;| 40% 
+
+<br/>
+
+<img src='img/exam.gif' alt='exam' width='55%' height='55%' class='center'>
+
+---
+
+class: inverse, center, middle
+
+# INVESTIGACIÓN REPRODUCIBLE
+
+---
+
+## Git y GitHub
+
+- [Git](https://git-scm.com/) es el sistema de control de versiones más utilizado en el mundo.
+- [GitHub](https://github.com/) es una plataforma para alojar proyectos Git.
+
+<img src='img/git.png' alt='git-y-github' width='100%' height='100%' class='center'>
+
+---
+
+## RMarkdown
+
+- [RMarkdown](https://rmarkdown.rstudio.com/) integra paquetes de R y herramientas externas con la finalidad de proveer un marco de referencia para la construcción de documentación completamente reproducible.
+
+<img src='img/rmark-gif.gif' alt='rmarkdown' width='95%' height='950%' class='center'>
+
+---
+
+class: inverse, center, middle
+
+# GRACIAS! <br/>  <a href="mailto: marvinjqs@gmail.com"> <img alt="gmail" src="../img/gmail-logo.gif" width='20%' height='50%'> </a> 
+
+
+
+
+

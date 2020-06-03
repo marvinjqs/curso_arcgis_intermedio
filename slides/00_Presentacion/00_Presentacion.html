@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>ArcGIS   Nivel Intermedio</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Environmental Data Scientist      " />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\my-theme.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# ArcGIS <br/> Nivel Intermedio
+## <br/> Marvin J. Quispe Sedano
+### Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>
+### Lima, 2020
+
+---
+
+
+
+
+
+layout: true
+  
+&lt;div class="my-footer"&gt;
+&lt;span&gt;
+&lt;a href="https://github.com/marvinjonathcn/curso_arcgis_intermedio" target="_blank"&gt; ArcGIS - Nivel Intermedio
+&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt; 
+
+---
+
+
+class: center
+
+## Acerca de mí
+
+.left-column-image[
+  &lt;img src='img/marvin-github.png' alt='marvin-profile' width='240' height='430' class='center'&gt;
+]
+
+.left-column[
+- Ingeniería ambiental / UNALM.
+- Consultor del International Potato Center (CIP/CGIAR) en el área de Research Informatics Unit (RIU).
+- Vicepresidente del Círculo de Investigación en Minería y Medio Ambiente (CIMMA/UNALM).
+- Docente con más de 150 horas de experiencia en el dictado de cursos de Sistemas de Información Geográfica con ArcGIS, R y Python.
+ ]
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  &lt;img src='img/googletrend.png' alt='google-trend' width='100%' height='100%' class='center'&gt;
+
+ &lt;a href="https://trends.google.com/" class='center'&gt; Acceder a Google Trends &lt;/a&gt;
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  &lt;img src='img/arcmap-doc.gif' alt='arcgis-doc' width='100%' height='100%' class='center'&gt;
+
+ &lt;a href="https://desktop.arcgis.com/es/arcmap/" class='center'&gt; Acceder a la documentación de ArcGIS Desktop &lt;/a&gt;
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  &lt;img src='img/ag-storymap.gif' alt='arcgis-online' width='100%' height='100%' class='center'&gt;
+
+ &lt;a href="https://www.arcgis.com/" class='center'&gt; Acceder a la web de ArcGIS &lt;/a&gt;
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+&lt;b&gt; CLASE 1 : FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (GIS) &lt;/b&gt;
+
+- ¿Qué son los GIS?
+- Componentes de los GIS
+- Conceptos geodésicos básicos
+- Elipsoide y Datum
+- Las proyecciones cartográficas
+- La Información geográfica y sus componentes
+- Aplicaciones de los GIS
+- ArcGIS y sus componentes principales
+- ArcGIS for Desktop: ArcMap, ArcCatalog, ArcToolbox
+- La representación vectorial y sus formatos
+- Multiarchivo shapefile (.shp)
+- La representación raster y sus formatos
+- El Geopackage
+- ¿Dónde puedo descargar información geográfica?
+- Servicios WMS
+- El geoprocesamiento
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+&lt;b&gt; CLASE 2 :  FUNDAMENTOS DE LA TELEDETECCIÓN &lt;/b&gt;
+
+- 
+- 
+- 
+- 
+- 
+- 
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+&lt;b&gt; CLASE 3 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM) &lt;/b&gt;
+
+- 
+- 
+- 
+- 
+- 
+- 
+
+---
+class: syllabus
+
+## Contenido analítico
+
+&lt;b&gt; CLASE 4 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES &lt;/b&gt;
+
+- 
+-
+- 
+- 
+- 
+
+---
+
+
+class: syllabus
+
+## Contenido analítico
+
+&lt;b&gt; CLASE 5 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" &lt;/b&gt;
+
+- 
+-
+- 
+- 
+- 
+- 
+
+---
+
+## Sistema de evaluación
+
+- Trabajos encargados  &amp;nbsp;  &amp;nbsp;| 30%
+- Examen teórico &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp; | 30%
+- Proyecto final &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;  &amp;nbsp;| 40% 
+
+&lt;br/&gt;
+
+&lt;img src='img/exam.gif' alt='exam' width='55%' height='55%' class='center'&gt;
+
+---
+
+class: inverse, center, middle
+
+# INVESTIGACIÓN REPRODUCIBLE
+
+---
+
+## Git y GitHub
+
+- [Git](https://git-scm.com/) es el sistema de control de versiones más utilizado en el mundo.
+- [GitHub](https://github.com/) es una plataforma para alojar proyectos Git.
+
+&lt;img src='img/git.png' alt='git-y-github' width='100%' height='100%' class='center'&gt;
+
+---
+
+## RMarkdown
+
+- [RMarkdown](https://rmarkdown.rstudio.com/) integra paquetes de R y herramientas externas con la finalidad de proveer un marco de referencia para la construcción de documentación completamente reproducible.
+
+&lt;img src='img/rmark-gif.gif' alt='rmarkdown' width='95%' height='950%' class='center'&gt;
+
+---
+
+class: inverse, center, middle
+
+# GRACIAS! &lt;br/&gt;  &lt;a href="mailto: marvinjqs@gmail.com"&gt; &lt;img alt="gmail" src="../img/gmail-logo.gif" width='20%' height='50%'&gt; &lt;/a&gt; 
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightLines": true,
+"highlightStyle": "solarized-dark",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
