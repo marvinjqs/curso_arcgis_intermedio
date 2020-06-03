@@ -5,7 +5,7 @@ author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif'
 date: "Lima, 2020"
 output:
   xaringan::moon_reader:
-    css: "my-theme.css"
+    css: "../my-theme.css"
     lib_dir: libs
     nature:
       highlightLines: true
@@ -66,9 +66,9 @@ class: syllabus
 
 ## Contenido analítico
 
-CLASE 1 :  FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (GIS)
+<b> CLASE 1 : FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (GIS) </b>
 
-- ¿Qué son los GIS?
+- > ¿Qué son los GIS?
 - Componentes de los GIS
 - Conceptos geodésicos básicos
 - Elipsoide y Datum
@@ -91,7 +91,7 @@ class: syllabus
 
 ## Contenido analítico
 
-CLASE 2 :  FUNDAMENTOS DE LA TELEDETECCIÓN
+<b> CLASE 2 :  FUNDAMENTOS DE LA TELEDETECCIÓN </b>
 
 - 
 - 
@@ -102,7 +102,7 @@ class: syllabus
 
 ## Contenido analítico
 
-CLASE 3 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM)
+<b> CLASE 3 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM) </b>
 
 - 
 - 
@@ -112,7 +112,7 @@ class: syllabus
 
 ## Contenido analítico
 
-CLASE 4 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES
+<b> CLASE 4 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES </b>
 
 - 
 - 
@@ -124,10 +124,22 @@ class: syllabus
 
 ## Contenido analítico
 
-CLASE 5 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" 
+<b> CLASE 5 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" </b>
 
 - 
 - 
+
+---
+
+## Sistema de evaluación
+
+- Trabajos encargados  &nbsp;  &nbsp;| 30%
+- Examen teórico &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; | 30%
+- Proyecto final &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;| 40% 
+
+<br/>
+
+<img src='img/exam.gif' alt='exam' width='55%' height='55%' class='center'>
 
 ---
 

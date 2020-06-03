@@ -25,7 +25,7 @@ layout: true
   
 <div class="my-footer">
 <span>
-<a href="https://datasciencebox.org/" target="_blank">datasciencebox.org
+<a href="https://github.com/marvinjonathcn/curso_arcgis_intermedio" target="_blank"> ArcGIS - Nivel Intermedio
 </a>
 </span>
 </div> 
