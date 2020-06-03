@@ -10,7 +10,6 @@ src="https://img.shields.io/badge/Autor-Marvin%20J.%20Quispe-lightgrey" /></a>
 <a href="https://opensource.org/licenses/MIT/"><img alt="Licencia MIT" 
 src="https://img.shields.io/github/license/marvinjonathcn/curso_arcgis_basico?label=License" />
 </a>  
-<a href="https://gitter.im/Template-Latex/Template-Controles"><img alt="Chat" src="https://latex.ppizarror.com/res/badges/chat.svg" /></a>
 <br><a href="https://github.com/Template-Latex/Template-Tesis/"><img alt="Template-Tesis" src="https://latex.ppizarror.com/res/badges/tesis.svg" /></a>
 
 </div><br />
@@ -21,4 +20,4 @@ Este corresponde a un template para confeccionar enunciados de controles/examene
  
 ##### I. PRIMERA PARTE: USO DE R COMO HERRAMIENTA GIS
  
-- Clase 1: [Fundamentos de los GIS](https://marvinjonathcn.github.io/curso_arcgis_intermedio/docs/01_Introduccion/01_Introduccion.html).
+- Clase 1: [Fundamentos de los GIS](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html).
