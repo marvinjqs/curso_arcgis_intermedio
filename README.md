@@ -25,7 +25,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 
 ### TEMARIO
 
-| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html)  &nbsp;  |
+| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Fundamentos_de_los_GIS/01_Fundamentos_de_los_GIS.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué son los GIS? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Componentes de los GIS |
