@@ -21,4 +21,4 @@ Este corresponde a un template para confeccionar enunciados de controles/examene
  
 ##### I. PRIMERA PARTE: USO DE R COMO HERRAMIENTA GIS
  
-- Clase 1: [Fundamentos de los GIS](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html).
+- Clase 1: [Fundamentos de los GIS](https://marvinjonathcn.github.io/curso_arcgis_intermedio/docs/01_Introduccion/01_Introduccion.html).
