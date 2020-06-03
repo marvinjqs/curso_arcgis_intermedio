@@ -25,22 +25,22 @@ Este corresponde a un template para confeccionar enunciados de controles/examene
 
 ### TEMARIO
  
-| CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html) |
+| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html)  &nbsp;  |
 |:---------------------------------------------------------------|
-| - ¿Qué son los GIS? |
-| - Componentes de los GIS |
-| - Conceptos geodésicos básicos |
-| - Elipsoide y Datum |
-| - Las proyecciones cartográficas |
-| - La Información geográfica y sus componentes |
-| - Aplicaciones de los GIS |
-| - ArcGIS y sus componentes principales |
-| - ArcGIS for Desktop: ArcMap, ArcCatalog, ArcToolbox |
-| - La representación vectorial y sus formatos |
-| - Multiarchivo shapefile (.shp) |
-| - La representación raster y sus formatos |
-| - El Geopackage |
-| - ¿Dónde puedo descargar información geográfica? |
-| - Servicios WMS |
-| - El geoprocesamiento |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué son los GIS? |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Componentes de los GIS |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Conceptos geodésicos básicos |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Elipsoide y Datum |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Las proyecciones cartográficas |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La Información geográfica y sus componentes |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Aplicaciones de los GIS |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ArcGIS y sus componentes principales |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ArcGIS for Desktop: ArcMap, ArcCatalog, ArcToolbox |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La representación vectorial y sus formatos |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Multiarchivo shapefile (.shp) |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La representación raster y sus formatos |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El Geopackage |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Dónde puedo descargar información geográfica? |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Servicios WMS |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El geoprocesamiento |
 
