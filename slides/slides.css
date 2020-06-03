@@ -48,10 +48,9 @@ a, a > code {
   color: #f3f3f3;
 }
 
-/* Sections title*/
+/* Diapositiva de titulo*/
 .title-slide {
   background-image: url(img/arcgis-fondo.png);
-  
   
 }
 
@@ -173,6 +172,20 @@ li{
   text-align: justify;
   font-size: 22px;
 }
+
+/* Listas del syllabus*/
+
+
+.syllabus {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.syllabus li{
+  font-size: 15px;
+  font-weight: normal;
+}
+
 
 
 /* Font sizes */

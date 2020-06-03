@@ -10,7 +10,7 @@ output:
     nature:
       highlightLines: true
       highlightStyle: solarized-dark
-      countIncrementalSlides: false
+      countIncrementalSlides: true
       
 ---
 
@@ -37,16 +37,100 @@ class: center
  ]
 
 ---
+
 # ¿Por qué aprender ArcGIS?
 
   <img src='img/googletrend.png' alt='google-trend' width='100%' height='100%' class='center'>
 
- <a href="https://trends.google.com/" class='center'> Más información </a>
-
-
-
+ <a href="https://trends.google.com/" class='center'> Acceder a Google Trends </a>
 
 ---
+
+# ¿Por qué aprender ArcGIS?
+
+  <img src='img/arcmap-doc.gif' alt='arcgis-doc' width='100%' height='100%' class='center'>
+
+ <a href="https://desktop.arcgis.com/es/arcmap/" class='center'> Acceder a la documentación de ArcGIS Desktop </a>
+
+---
+
+# ¿Por qué aprender ArcGIS?
+
+  <img src='img/ag-storymap.gif' alt='arcgis-online' width='100%' height='100%' class='center'>
+
+ <a href="https://www.arcgis.com/" class='center'> Acceder a la web de ArcGIS </a>
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+CLASE 1 :  FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA (GIS)
+
+- ¿Qué son los GIS?
+- Componentes de los GIS
+- Conceptos geodésicos básicos
+- Elipsoide y Datum
+- Las proyecciones cartográficas
+- La Información geográfica y sus componentes
+- Aplicaciones de los GIS
+- ArcGIS y sus componentes principales
+- ArcGIS for Desktop: ArcMap, ArcCatalog, ArcToolbox
+- La representación vectorial y sus formatos
+- Multiarchivo shapefile (.shp)
+- La representación raster y sus formatos
+- El Geopackage
+- ¿Dónde puedo descargar información geográfica?
+- Servicios WMS
+- El geoprocesamiento
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+CLASE 2 :  FUNDAMENTOS DE LA TELEDETECCIÓN
+
+- 
+- 
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+CLASE 3 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM)
+
+- 
+- 
+
+---
+class: syllabus
+
+## Contenido analítico
+
+CLASE 4 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES
+
+- 
+- 
+
+---
+
+
+class: syllabus
+
+## Contenido analítico
+
+CLASE 5 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" 
+
+- 
+- 
+
+---
+
 ## What is data science?
 
 - <i class="fa fa-database fa"></i> + <i class="fa fa-flask fa"></i> = data science?
