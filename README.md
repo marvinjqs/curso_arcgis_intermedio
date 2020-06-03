@@ -27,7 +27,7 @@ Este corresponde a un template para confeccionar enunciados de controles/examene
  
 #### CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Introduccion/01_Introduccion.html).
  
- | ¿Qué son los GIS? | 
+> - ¿Qué son los GIS? 
 - Componentes de los GIS
 - Conceptos geodésicos básicos
 - Elipsoide y Datum
