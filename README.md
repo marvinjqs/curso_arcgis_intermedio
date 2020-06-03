@@ -4,7 +4,7 @@
   </a>
   <br /><br />
   SISTEMAS DE INFORMACIÓN GEOGRÁFICA CON ARCGIS </h2>
-<p align="center">NIVEL BÁSICO</p>
+<p align="center">NIVEL INTERMEDIO</p>
 <div align="center"><a href="https://www.linkedin.com/in/marvinjqs/"><img alt="@marvinjonathcn" 
 src="https://img.shields.io/badge/Autor-Marvin%20J.%20Quispe-lightgrey" /></a>
 <a href="https://opensource.org/licenses/MIT/"><img alt="Licencia MIT" 
