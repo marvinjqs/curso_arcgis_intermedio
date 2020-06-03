@@ -14,7 +14,7 @@ src="https://img.shields.io/github/license/marvinjonathcn/curso_arcgis_basico?la
 
 </div><br />
 
-Este corresponde a un template para confeccionar enunciados de controles/examenes en latex, contiene funciones básicas para agregar imágenes, párrafos, fórmulas, etc.
+Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de la información espacial para su posterior análisis, manipulación, consulta y representación con la finalidad de obtener resultados (numéricos y gráficos) que ayuden en la toma de decisiones de manera óptima.
 
 ### DOCENTE
 
