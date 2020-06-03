@@ -1,6 +1,6 @@
 <h2 align="center">
-  <a href="https://latex.ppizarror.com/controles" title="Template-Controles">
-    <img alt="Template-Controles" src="https://logosolusa.com/wp-content/uploads/parser/ESRI-ArcGIS-Logo-1.png" width="200px" height="200px" />
+  <a href="https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/00_Presentacion/00_Presentacion.html" title="ArcGIS-Intermedio">
+    <img alt="Logo-arcgis" src="https://logosolusa.com/wp-content/uploads/parser/ESRI-ArcGIS-Logo-1.png" width="200px" height="200px" />
   </a>
   <br /><br />
   SISTEMAS DE INFORMACIÓN GEOGRÁFICA CON ARCGIS </h2>
