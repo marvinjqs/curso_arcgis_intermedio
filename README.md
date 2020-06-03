@@ -16,3 +16,9 @@ src="https://img.shields.io/github/license/marvinjonathcn/curso_arcgis_basico?la
 </div><br />
 
 Este corresponde a un template para confeccionar enunciados de controles/examenes en latex, contiene funciones básicas para agregar imágenes, párrafos, fórmulas, etc.
+
+#### TEMARIO
+ 
+##### I. PRIMERA PARTE: USO DE R COMO HERRAMIENTA GIS
+ 
+- Clase 1: [Fundamentos de los GIS](https://marvinjonathcn.github.io/curso_arcgis_intermedio/01_Introduccion.html).
