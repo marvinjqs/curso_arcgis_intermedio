@@ -1,0 +1,3 @@
+PREPROCESAMIENTO DEL DEM:
+
+FocalStatistics("XXX", NbrCircle(10, "CELL"), "MEAN")
