@@ -18,8 +18,8 @@ output:
 ```
 
 ```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
-library(tidyverse)
-library(emo)
+# AGREGAR PAQUETES A UTILIZAR
+
 ```
 class: center
 

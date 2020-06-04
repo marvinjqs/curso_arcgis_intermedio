@@ -1,0 +1,85 @@
+---
+title: "ArcGIS <br/> Nivel Intermedio"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+date: "Lima, 2020"
+output:
+  xaringan::moon_reader:
+    css: "../my-theme.css"
+    lib_dir: libs
+    nature:
+      highlightLines: true
+      highlightStyle: solarized-dark
+      countIncrementalSlides: true
+      
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+# AGREGAR PAQUETES A UTILIZAR
+
+```
+class: inverse, center, middle
+
+## CLASE 1 
+### FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICOS
+
+---
+
+## ¿Qué son los GIS?
+
+Según Olaya (2014), un Sistema de Información Geográfica permite la realización las siguientes operaciones: 
+
+- Lectura, edición, almacenamiento y, en términos generales, gestión de datos espaciales. 
+- Análisis de datos espaciales, desde consultas sencillas a la elaboración de complejos modelos, y puede llevarse a cabo tanto sobre la componente espacial de los datos (la localización de cada valor o elemento) como sobre la componente temática (el valor o el elemento en sí).
+- Generación de resultados tales como mapas, informes, gráficos, etc.
+
+---
+
+## Componentes de los GIS
+
+  <img src='img/gis-comp.png' alt='componentes-gis' width='80%' height='80%' class='center'>
+  
+---
+  
+## Componentes de los GIS
+
+A la hora de definir la forma y dimensiones de la Tierra, la geodesia plantea modelos que puedan recoger la complejidad natural de la superficie terrestre y expresarla de una forma más simple y fácil de manejar (Olaya 2014).
+
+ <img src='img/geod.png' alt='geodesia' width='100%' height='100%' class='center'>
+
+---
+
+## Elipsoide y datum
+
+<img src='img/datum.png' alt='datum' width='100%' height='100%' class='center'>
+
+---
+
+## Las proyecciones cartográficas
+
+<img src='img/proy-cart.png' alt='proy-cart' width='150%' height='150%' class='center'>
+
+---
+
+## Las proyecciones cartográficas
+
+<img src='img/proy2.png' alt='proy2' width='90%' height='90%' class='center'>
+
+---
+
+## Las proyecciones cartográficas
+
+<img src='img/proy3.png' alt='proy3' width='80%' height='80%' class='center'>
+
+---
+
+## La información geográfica
+
+La información geográfica es el resultado de un dato y una interpretación (Olaya 2014).  <br/>  <br/>
+
+<img src='img/infgeog.png' alt='geo-info' width='100%' height='100%' class='center'>
+
+---
