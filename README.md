@@ -61,4 +61,18 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Ejemplo aplicativo 01: Creación de una base de datos espacial de la provincia de Lima |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Ejemplo aplicativo 01: Creación de paquetes de datos espaciales del distrito de La Molina |
 
+| 🌏 CLASE 3: [FUNDAMENTOS DE LA TELEDETECCIÓN](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/03_Fundamentos_de_la_teledeteccion/03_Fundamentos_de_la_teledeteccion.html)  &nbsp;  |
+|:---------------------------------------------------------------|
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es la teledetección? |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El estudio de la tierra con satélites |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El proceso de la teledetección |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Bases físicas de la teledetección |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La radiación electromagnética |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La polarización electromagnética |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El espectro electromagnético |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La irradiación solar |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La firma espectral |
+
+
+
 
