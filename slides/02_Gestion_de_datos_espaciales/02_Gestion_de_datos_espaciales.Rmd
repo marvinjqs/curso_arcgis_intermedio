@@ -38,6 +38,46 @@ class: inverse, center, middle
 
 ---
 
+class: inverse, center, middle
+
+## BASES DE DATOS ESPACIALES
+
+---
+
+## ¿Qué es una base de datos espacial?
+
+- Es un conjunto de datos espaciales pertenecientes a un mismo contexto y almacenados sitemáticamente para mejorar la eficiencia en su uso. 
+- ArcGIS nos da la posibilidad de poder conectarnos con distintos formatos de bases de datos, la mayor parte de estos requiere instalaciones y configuraciones previas <a href="https://desktop.arcgis.com/es/arcmap/latest/manage-data/databases/database-connections-desktop.htm">(Ver lista completa)</a>.
+
+
+<img src='img/spatialdb.png' width='40%' height='40%' class='centerimage'>
+
+---
+
+## Geodatabase
+
+- Un geodatabase es una colección de datos espaciales de varios tipos contenidos en una carpeta de sistemas de archivo común, una base de datos Microsoft Access o una base de datos relacional multiusario DBSM.
+
+<br/>
+
+<img src='img/geodatabase.png' width='80%' height='80%' class='centerimage'>
+
+---
+
+## Tipos de Geodatabase
+
+<br/> 
+
+<img src='img/tiposdegdb.png' width='100%' height='100%' class='centerimage'>
+
+---
+
+class: inverse, center, middle
+
+## TIPOS DE DATOS ESPACIALES EN ArcGIS
+
+---
+
 ## Feature class
 
 - Un feature class <i>(en español clase de entidad)</i> es una colección de entidades geográficas que comparten el mismo tipo de geometría y los mismos campos de atributo para un área común.
