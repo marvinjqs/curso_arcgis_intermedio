@@ -89,6 +89,14 @@ class: inverse, center, middle
 
 ---
 
+##  Interacción onda/materia
+
+- Todas las ondas electromagnéticas se pueden reflejar, refractar, difractar, absorber, dispersar, y experimentar interferencias debido a su interacción con la materia.
+
+<img src='img/onda-materia1.png' width='85%' height='85%' class='centerimage'>
+
+---
+
 ## La polarización electromagnética
 
 - Es una propiedad de las ondas electromagnéticas, la cual hace referencia a su posible oscilación con más de una orientación.
@@ -98,7 +106,7 @@ class: inverse, center, middle
 
 ---
 
-## El spectro electromagnético
+## El espectro electromagnético
 
 - Es la distribución energética del conjunto de ondas electromagnéticas.
 
@@ -115,15 +123,49 @@ class: inverse, center, middle
 
 ---
 
-## Firma espectral
+## La firma espectral
 
 - La firma espectral es la radiación reflejada (reflectancia), por determinada superficie, medida en función de la longitud de onda (ESA, 2014).
 - La firma espectral es única para cada elemento.
 
-<img src='img/firma-espectral.png' width='90%' height='90%' class='centerimage'>
+<br/>
+
+<img src='img/firma-espectral.png' width='80%' height='80%' class='centerimage'>
+
+---
+
+class: inverse, center, middle
+
+## IMÁGENES SATELITALES
+
+---
+
+## ¿Qué es una imagen satelital?
+
+- Se define como la representación visual de la información capturada por un sensor montado en una plataforma artificial (también llamado satélite).
+
+<img src='img/satelites.gif' width='90%' height='90%' class='centerimage'>
+
+---
 
 
+## Satélites y sensores
 
+<img src='img/sat-sensor.png' width='100%' height='100%' class='centerimage'>
+
+
+---
+
+## Resoluciones de una imagen satelital
+
+<img src='img/resoluciones.png' width='90%' height='90%' class='centerimage'>
+
+
+---
+
+class: inverse, center, middle
+
+# GRACIAS! <br/>  <a href="mailto: marvinjqs@gmail.com"> <img alt="gmail" src="../img/gmail-logo.gif" width='20%' height='50%'> </a> 
 
 
 
