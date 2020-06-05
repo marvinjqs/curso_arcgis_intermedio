@@ -38,6 +38,17 @@ class: inverse, center, middle
 
 ---
 
+<br/>
+
+<img src='img/datagis1.gif' width='100%' height='100%' class='centerimage'>
+
+---
+
+
+<img src='img/datagis2.gif' width='95%' height='95%' class='centerimage'>
+
+---
+
 class: inverse, center, middle
 
 ## BASES DE DATOS ESPACIALES
@@ -86,9 +97,64 @@ class: inverse, center, middle
 <img src='img/featureclass.png' width='100%' height='100%' class='centerimage'>
 
 ---
+
+## Raster dataset
+
+- Un raster dataset consiste en una matriz de celdas (píxeles) organizadas en filas y columnas donde cada celda contiene un valor que representa información de alguna variable en particular.
+
+<br/> 
+
+<img src='img/raster.gif' width='100%' height='100%' class='centerimage'>
+
+---
+
+## Table
+
+- Las tablas contienen información alfanumérica (caracteres y números), que puede o no estar asociada a un elemento espacial, ordenada en filas (registros) y columnas (campos).
+
+<img src='img/table.png' width='50%' height='50%' class='centerimage'>
+
+---
+
+## Feature dataset
+
+- Es una colección de feature class que comparten un SCR.
+
+## Raster catalog
+
+- Es una colección de raster dataset.
+
+## Entre otros ...
+
+---
+
+
+class: inverse, center, middle
+
+## PAQUETES DE ArcGIS
+
+---
+
+## Layer (.lyr)
+
+- Es un archivo que almacena la ruta a un conjunto de datos de origen y otras propiedades como la simbología y el etiquetado.
+
+## Layer package (.lpk)
+
+- Es un archivo que almacena un conjunto de datos, la cartografía y otras propiedades como la simbología y el etiquetado.
+
+## Map package (.mpk)
+
+- Es un archivo que almacena un proyecto de ArcMAP (.mxd), los conjunto de datos usados en el proyecto, la cartografía y otras propiedades como la simbología y el etiquetado.
+- Es la mejor manera de compartir proyectos completos de ArcMap.
+
+
+---
+
+
 class: center
 
-# .instructions[CUIDADO !!]
+# .instructions[IMPORTANTE !!]
 
 - Los siguientes caracteres causan problemas en nombres:
 
@@ -105,4 +171,25 @@ coma (,) , punto (.) y un espacio.
 
 ---
 
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 01
+
+### CREACIÓN DE UNA BASE DE DATOS ESPACIAL DE LA PROVINCIA DE LIMA
+
+---
+
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 02
+
+### CREACIÓN DE PAQUETES DE DATOS ESPACIALES DEL DISTRITO DE LA MOLINA
+
+---
+
+
+class: inverse, center, middle
+
+# GRACIAS! <br/>  <a href="mailto: marvinjqs@gmail.com"> <img alt="gmail" src="../img/gmail-logo.gif" width='20%' height='50%'> </a> 
 
