@@ -1,0 +1,125 @@
+---
+title: "ArcGIS <br/> Nivel Intermedio"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+date: "Lima, 2020"
+output:
+  xaringan::moon_reader:
+    css: "../my-theme.css"
+    lib_dir: libs
+    nature:
+      highlightLines: true
+      highlightStyle: solarized-dark
+      countIncrementalSlides: true
+      
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+# AGREGAR PAQUETES A UTILIZAR
+
+```
+class: inverse, center, middle
+
+## CLASE 3 
+### FUNDAMENTOS DE LA TELEDETECCIÓN
+
+---
+
+## ¿Qué es la teledetección?
+
+- La teledetección (también llamado sensoramiento remoto) es la ciencia y tecnología mediante la cual las características de los objetos de interés pueden identificarse, medirse o analizarse sin contacto directo (JARS, 1993).
+
+<img src='img/teledeteccion.png' width='85%' height='85%' class='centerimage'>
+
+---
+
+## El estudio de la tierra con satélites
+
+Algunas de las ventajas que nos ofrece el uso de los satélites en el estudio del sistema Tierra son:
+
+- Mediciones constantes y rutinarias a escala global.
+- Perspectiva general de la información y a diferentes escalas.
+- Ofrecer información para aquellas áreas donde no existen mediciones terrestres de parámetros.
+- Alerta temprana sobre eventos meteorológicos, delitos ambientales, desastres inminentes, entre otros.
+- Atractivo visual de las imagenes.
+
+---
+
+class: center
+
+<br/>
+
+<img src='img/deforestacion.gif' width='100%' height='100%' class='centerimage'>
+
+### .instructions[UNA IMAGEN VALE MÁS QUE MIL PALABRAS!]
+
+---
+
+## El proceso de la teledetección
+
+<img src='img/tele-partes.png' width='95%' height='95%' class='centerimage'>
+
+---
+
+class: inverse, center, middle
+
+## BASES FÍSICAS DE LA TELEDETECCIÓN
+
+---
+
+## La radiación electromagnética
+
+- La radiación electromagnética es una combinación de campos eléctricos y magnéticos oscilantes, que se propagan a través del espacio transportando energía de un lugar a otro.
+- La radiación electromagnética se puede expresar en términos de energía, longitud de onda o frecuencia .
+
+
+<img src='img/luz-solar.gif' width='85%' height='85%' class='centerimage'>
+
+---
+
+## La radiación electromagnética
+
+- La radiación electromagnética es una combinación de campos eléctricos y magnéticos oscilantes, que se propagan a través del espacio transportando energía de un lugar a otro.
+- La radiación electromagnética se puede expresar en términos de energía, longitud de onda o frecuencia.
+
+<img src='img/radiacion-elct.gif' width='60%' height='60%' class='centerimage'>
+
+---
+
+## La polarización electromagnética
+
+- Es una propiedad de las ondas electromagnéticas, la cual hace referencia a su posible oscilación con más de una orientación.
+- gg
+
+<img src='img/polarizacion.gif' width='100%' height='100%' class='centerimage'>
+
+---
+
+## El spectro electromagnético
+
+- Es la distribución energética del conjunto de ondas electromagnéticas.
+
+<img src='img/espectro-elec.png' width='100%' height='100%' class='centerimage'>
+
+---
+
+## La irradiación solar
+
+- La irradiación solar mide la energía por unidad de área de radiación solar incidente en una superficie colocada en un lugar y tiempo especificados.
+- La radiación solar es reflejada, absorbida o dispersada por la atmósfera terrestre debido a la acción de átomos, moléculas, iones, gases disueltos y partículas en suspensión.
+
+<img src='img/irradiancia.png' width='70%' height='70%' class='centerimage'>
+
+---
+
+## Firma espectral
+
+
+
+
+
+
+
