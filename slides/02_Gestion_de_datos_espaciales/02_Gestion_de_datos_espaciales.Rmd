@@ -1,0 +1,68 @@
+---
+title: "ArcGIS <br/> Nivel Intermedio"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+date: "Lima, 2020"
+output:
+  xaringan::moon_reader:
+    css: "../my-theme.css"
+    lib_dir: libs
+    nature:
+      highlightLines: true
+      highlightStyle: solarized-dark
+      countIncrementalSlides: true
+      
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+# AGREGAR PAQUETES A UTILIZAR
+
+```
+class: inverse, center, middle
+
+## CLASE 2 
+### GESTIÓN DE DATOS ESPACIALES
+
+---
+
+## ¿Qué son los datos espaciales?
+
+- Es un término utilizado para describir cualquier dato que este relacionado o contenga información sobre una ubicación específica dentro de la superficie terrestre.
+- ArcGIS es compatible con una gran cantidad de formatos de datos espaciales, muchos de los cuales son nativos de ESRI <a href="https://desktop.arcgis.com/es/arcmap/latest/manage-data/datatypes/about-geographic-data-formats.htm">(Ver lista completa)</a>.
+
+
+  <img src='img/spatialdata.png' width='65%' height='65%' class='centerimage'>
+
+---
+
+## Feature class
+
+- Un feature class <i>(en español clase de entidad)</i> es una colección de entidades geográficas que comparten el mismo tipo de geometría y los mismos campos de atributo para un área común.
+
+
+<img src='img/featureclass.png' width='100%' height='100%' class='centerimage'>
+
+---
+class: center
+
+# .instructions[CUIDADO !!]
+
+- Los siguientes caracteres causan problemas en nombres :
+
+.instructions[
+~, ` , ! , @, # , $ , % , ^ , & , (,) , - , + , = , {,} , 
+
+[,], ; , \ , / , : , * , ? , ' , " , < , > , | , 
+
+coma (,) , punto (.) y un espacio.
+]
+
+
+<img src='img/errorgif.gif' width='35%' height='35%' class='centerimage'>
+
+---
+
+
