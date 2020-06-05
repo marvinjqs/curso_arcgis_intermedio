@@ -50,7 +50,7 @@ class: center
 
 # .instructions[CUIDADO !!]
 
-- Los siguientes caracteres causan problemas en nombres :
+- Los siguientes caracteres causan problemas en nombres:
 
 .instructions[
 ~, ` , ! , @, # , $ , % , ^ , & , (,) , - , + , = , {,} , 
