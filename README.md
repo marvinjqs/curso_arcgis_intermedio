@@ -44,3 +44,22 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Servicios WMS |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• El geoprocesamiento |
 
+| 🌏 CLASE 2: [GESTIÓN DE DATOS ESPACIALES](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Fundamentos_de_los_GIS/01_Fundamentos_de_los_GIS.html)  &nbsp;  |
+|:---------------------------------------------------------------|
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué son los GIS? |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Componentes de los GIS |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Conceptos geodésicos básicos |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Elipsoide y Datum |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Las proyecciones cartográficas |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La Información geográfica y sus componentes |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Aplicaciones de los GIS |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ArcGIS y sus componentes principales |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ArcGIS for Desktop: ArcMap, ArcCatalog, ArcToolbox |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La representación vectorial y sus formatos |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Multiarchivo shapefile (.shp) |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• La representación raster y sus formatos |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El Geopackage |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Dónde puedo descargar información geográfica? |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• Servicios WMS |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• El geoprocesamiento |
+
