@@ -85,20 +85,6 @@ class: syllabus
 - Servicios WMS
 - El geoprocesamiento
 
----
-
-class: syllabus
-
-## Contenido analítico
-
-<b> CLASE 2 :  FUNDAMENTOS DE LA TELEDETECCIÓN </b>
-
-- 
-- 
-- 
-- 
-- 
-- 
 
 ---
 
@@ -106,7 +92,45 @@ class: syllabus
 
 ## Contenido analítico
 
-<b> CLASE 3 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM) </b>
+<b> CLASE 2 :  GESTIÓN DE DATOS ESPACIALES  </b>
+
+- ¿Qué son los datos espaciales?
+- ¿Qué es una base de datos espacial?
+- Geodatabase
+- Tipos de Geodatabase
+- Tipos de datos espaciales en ArcGIS
+- Feature class y Feature dataset
+- Raster dataset y Raster catalog
+- Table
+- Paquetes de ArcGIS
+- Layer (.lyr)
+- Layer package (.lpk)
+- Map package (.mpk)
+- Ejemplo aplicativo 01: Creación de una base de datos espacial de la provincia de Lima
+- Ejemplo aplicativo 01: Creación de paquetes de datos espaciales del distrito de La Molina
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 3 :  FUNDAMENTOS DE LA TELEDETECCIÓN </b>
+
+- 
+- 
+- 
+- 
+- 
+- 
+
+---
+
+class: syllabus
+
+## Contenido analítico
+
+<b> CLASE 4 :  ANÁLISIS DE MODELOS DE ELEVACIÓN DIGITAL (DEM) </b>
 
 - 
 - 
@@ -120,7 +144,7 @@ class: syllabus
 
 ## Contenido analítico
 
-<b> CLASE 4 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES </b>
+<b> CLASE 5 :  ANÁLISIS ESPACIAL DE DATOS AMBIENTALES </b>
 
 - 
 -
@@ -135,7 +159,7 @@ class: syllabus
 
 ## Contenido analítico
 
-<b> CLASE 5 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" </b>
+<b> CLASE 6 :  ANÁLISIS HIDROLÓGICO CON "HIDROLOGY" </b>
 
 - 
 -
