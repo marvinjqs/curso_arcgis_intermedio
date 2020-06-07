@@ -73,6 +73,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• El espectro electromagnético |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• La irradiación solar |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• La firma espectral |
+| &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¡Qué es una imagen satelital? |
 
 
 
