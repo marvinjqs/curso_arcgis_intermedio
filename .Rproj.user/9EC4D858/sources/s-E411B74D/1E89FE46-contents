@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Page Title</title>
+  </head>
+  <body>
+  
+  <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2213_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"/m/082gc5","geo":"","time":"today 5-y"},{"keyword":"/m/0ct9z5","geo":"","time":"today 5-y"},{"keyword":"/m/05_tzg","geo":"","time":"today 5-y"},{"keyword":"/m/02p12k","geo":"","time":"today 5-y"},{"keyword":"/m/09gyhg","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&q=%2Fm%2F082gc5,%2Fm%2F0ct9z5,%2Fm%2F05_tzg,%2Fm%2F02p12k,%2Fm%2F09gyhg","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+    
+    </body>
+    </html>
