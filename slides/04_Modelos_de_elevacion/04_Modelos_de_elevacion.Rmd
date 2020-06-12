@@ -1,0 +1,58 @@
+---
+title: "ArcGIS <br/> Nivel Intermedio"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+date: "Lima, 2020"
+output:
+  xaringan::moon_reader:
+    css: "../my-theme.css"
+    lib_dir: libs
+    nature:
+      highlightLines: true
+      highlightStyle: solarized-dark
+      countIncrementalSlides: true
+      
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+# AGREGAR PAQUETES A UTILIZAR
+
+```
+class: inverse, center, middle
+
+## CLASE 3 
+### ANÁLISIS DE ELEVACIÓN Y SUPERFICIE DE TERRENO
+
+---
+
+## ¿Qué es un modelo ?
+
+- Un modelo es un esquema teórico que se elabora con el fin de facilitar el entendimiento de un sistema complejo, así comprender mejor su comportamiento y sus propiedades.
+- Los modelos se pueden clasificar en dos grandes grupos:
+    - <b>Los modelos físicos:</b> Modelos construidos a escala con materiales adecuados.
+    - <b>Los modelos lógicos o simbólicos:</b> Conjunto de entidades que satisfacen un conjunto de restricciones, axiomas y teoremas. 
+
+---
+
+## ¿Qué es un modelo digital de elevación (DEM)?
+
+- Se denomina Modelo Digital de Elevaciones (DEM, por sus siglas en ingles) a un <b>modelo simbólico</b>, de estructura numérica y digital que pretende representar la distribución espacial de la elevación de un lugar determinado.
+
+---
+
+## Modelos de representación de la elevación y superficie
+
+
+---
+
+
+
+class: inverse, center, middle
+
+# GRACIAS! <br/>  <a href="mailto: marvinjqs@gmail.com"> <img alt="gmail" src="../img/gmail-logo.gif" width='20%' height='50%'> </a> 
+
+
+
