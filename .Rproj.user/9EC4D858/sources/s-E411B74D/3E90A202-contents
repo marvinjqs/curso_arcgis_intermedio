@@ -1,3 +1,0 @@
-res <- gtrends(c("ArcGIS", ""), geo = c("US", "US"))
-plot_ly(res)
-
