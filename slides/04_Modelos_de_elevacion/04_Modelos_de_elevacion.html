@@ -39,7 +39,7 @@ layout: true
 class: inverse, center, middle
 
 ## CLASE 3 
-### ANÁLISIS DE ELEVACIÓN Y SUPERFICIE DE TERRENO
+### ANÁLISIS DE SUPERFICIE Y ELEVACIÓN
 
 ---
 
@@ -49,21 +49,110 @@ class: inverse, center, middle
 - Los modelos se pueden clasificar en dos grandes grupos:
     - &lt;b&gt;Los modelos físicos:&lt;/b&gt; Modelos construidos a escala con materiales adecuados.
     - &lt;b&gt;Los modelos lógicos o simbólicos:&lt;/b&gt; Conjunto de entidades que satisfacen un conjunto de restricciones, axiomas y teoremas. 
+    
+
+&lt;img src='img/earthmodel.gif' width='40%' height='40%' class='centerimage'&gt;
 
 ---
 
-## ¿Qué es un modelo digital de elevación (DEM)?
+## ¿Qué es un modelo de superficie?
 
-- Se denomina Modelo Digital de Elevaciones (DEM, por sus siglas en ingles) a un &lt;b&gt;modelo simbólico&lt;/b&gt;, de estructura numérica y digital que pretende representar la distribución espacial de la elevación de un lugar determinado.
+- Un modelo de superficie es una representación digital de entidades de un lugar determinado, real o hipotético, que puede trabajarse de manera bidimensional (2D) o tridimensional (3D).
+- Un modelo de superficie puede representar distintas variables tales como: contaminación, elevación, profundidades, etc.
 
----
-
-## Modelos de representación de la elevación y superficie
-
+&lt;img src='img/supmodel.gif' width='50%' height='50%' class='centerimage'&gt;
 
 ---
 
+class: inverse, center, middle
 
+## MODELOS DE SUPERFICIE EN ArcGIS
+
+---
+
+## Raster
+
+- Es un conjunto rectangular de celdas (o píxeles), y cada una de ellas almacena un valor correspondiente a la parte de superficie que cubre.
+
+&lt;img src='img/dem.png' width='95%' height='95%' class='centerimage'&gt;
+
+---
+
+## Red de Triangulación Irregular (TIN)
+
+- Son una forma de datos geográficos digitales basados en vectores y se construyen mediante la triangulación de un conjunto de vértices (puntos) que cubren una superficie determinada.
+- Los TIN se forman a partir de un conjunto de valores conocidos, o alturas de puntos, que se utilizan a modo de nodos iniciales en la triangulación.
+
+&lt;img src='img/tin.png' width='90%' height='90%' class='centerimage'&gt;
+
+---
+
+## Curvas de nivel
+
+- Las curvas de nivel son líneas imaginarias que conectan ubicaciones de igual valor en un dataset para representar fenómenos continuos (precipitación, elevación, etc) en una superficie determinada.
+
+&lt;img src='img/curvas.gif' width='80%' height='80%' class='centerimage'&gt;
+
+---
+
+class: inverse, center, middle
+
+## MODELOS DE ELEVACIÓN Y SUPERFICIE
+
+---
+
+## Elevación, altura y altitud
+
+- Elevación: Distancia vertical entre un punto o nivel en la superficie de la tierra, o unido a ella, y el nivel medio del mar.
+- Altitud: Distancia vertical desde un nivel, punto u objeto, al nivel medio del mar.
+- Altura: Distancia vertical entre un nivel, punto u objeto, y una referencia específica.
+
+
+&lt;img src='img/elev-alt.png' width='65%' height='65%' class='centerimage'&gt;
+
+---
+
+## ¿Qué es un DEM?
+
+- Se denomina Modelo Digital de Elevaciones (DEM, por sus siglas en ingles) a un &lt;b&gt;modelo simbólico&lt;/b&gt;, de estructura numérica y digital que pretende representar la distribución espacial de la elevación en una superficie determinada.
+
+
+&lt;img src='img/dem2.png' width='80%' height='80%' class='centerimage'&gt;
+
+---
+
+## Otros modelos &lt;/br&gt; de elevación y superficie
+
+
+&lt;img src='img/models-elev.png' width='100%' height='100%' class='centerimage'&gt;
+
+
+---
+
+
+## Otros modelos &lt;/br&gt; de elevación y superficie
+
+
+&lt;img src='img/dem-dsm.gif' width='100%' height='100%' class='centerimage'&gt;
+
+
+---
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 01
+
+### GENERACIÓN DE CURVAS DE NIVEL DE LA CUENCA CHILLÓN
+
+---
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 02
+
+### CREACIÓN DE MAPAS TOPOGRÁFICOS DE LA CUENCA RÍMAC
+
+---
 
 class: inverse, center, middle
 
