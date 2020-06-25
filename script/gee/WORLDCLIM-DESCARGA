@@ -1,0 +1,336 @@
+///////////////////////////////////////////////////
+// TÍTULO : DESCARGA DE DATOS DE TEMPERATURA Y PRECIPITACION - WORLDCLIM v1
+// PLATAFORMA : WORLDCLIM v1, Hijmans, R.J., et al. , 2005. 
+// AUTOR : Marvin J. Quispe Sedano
+// CONTACTO : marvinjqs@gmail.com
+///////////////////////////////////////////////////
+
+// IMPORTAR UN SHAPEFILE CON EL AREA DE ESTUDIO O DIBUJARLO EN EL MAPA
+
+// geometry = NOMBRE DE LA VARIABLE DEL AREA DE ESTUDIO
+
+var geometry = table.geometry()
+Map.centerObject(geometry);
+Map.addLayer(geometry);
+
+// Seleccionar los meses de descarga de datos de temperatura
+
+var tavg_data1 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 1)
+  .reduce(ee.Reducer.mean());
+
+var tavg_data2 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 2)
+  .reduce(ee.Reducer.mean());
+
+var tavg_data3 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 3)
+  .reduce(ee.Reducer.mean());
+
+var tavg_data4 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 4)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data5 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 5)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data6 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 6)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data7 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 7)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data8 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 8)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data9 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 9)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data10 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 10)
+  .reduce(ee.Reducer.mean());
+  
+var tavg_data11 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 11)
+  .reduce(ee.Reducer.mean());
+
+var tavg_data12 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('tavg')
+  .filterMetadata('month', 'equals', 12)
+  .reduce(ee.Reducer.mean());
+
+
+// Seleccionar los meses de descarga de datos de temperatura
+
+var pp_data1 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 1)
+  .reduce(ee.Reducer.mean());
+
+var pp_data2 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 2)
+  .reduce(ee.Reducer.mean());
+
+var pp_data3 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 3)
+  .reduce(ee.Reducer.mean());
+
+var pp_data4 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 4)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data5 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 5)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data6 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 6)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data7 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 7)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data8 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 8)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data9 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 9)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data10 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 10)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data11 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 11)
+  .reduce(ee.Reducer.mean());
+  
+var pp_data12 = ee.ImageCollection('WORLDCLIM/V1/MONTHLY')
+  .select('prec')
+  .filterMetadata('month', 'equals', 12)
+  .reduce(ee.Reducer.mean());
+  
+
+// Hacer el recorte para el area de interes 
+
+var tavg_clip1 = tavg_data1.clip(geometry);
+var tavg_clip2 = tavg_data2.clip(geometry);
+var tavg_clip3 = tavg_data3.clip(geometry);
+var tavg_clip4 = tavg_data4.clip(geometry);
+var tavg_clip5 = tavg_data5.clip(geometry);
+var tavg_clip6 = tavg_data6.clip(geometry);
+var tavg_clip7 = tavg_data7.clip(geometry);
+var tavg_clip8 = tavg_data8.clip(geometry);
+var tavg_clip9 = tavg_data9.clip(geometry);
+var tavg_clip10 = tavg_data10.clip(geometry);
+var tavg_clip11 = tavg_data11.clip(geometry);
+var tavg_clip12 = tavg_data12.clip(geometry);
+
+
+var pp_clip1 = pp_data1.clip (geometry);
+var pp_clip2 = pp_data2.clip(geometry);
+var pp_clip3 = pp_data3.clip(geometry);
+var pp_clip4 = pp_data4.clip(geometry);
+var pp_clip5 = pp_data5.clip(geometry);
+var pp_clip6 = pp_data6.clip(geometry);
+var pp_clip7 = pp_data7.clip(geometry);
+var pp_clip8 = pp_data8.clip(geometry);
+var pp_clip9 = pp_data9.clip(geometry);
+var pp_clip10 = pp_data10.clip(geometry);
+var pp_clip11 = pp_data11.clip(geometry);
+var pp_clip12 = pp_data12.clip(geometry);
+
+
+// Presentar la paleta de colores y un mapa de ejemplo
+
+var palette_tavg = {
+  min: -400.0,
+  max: 300.0,
+  palette: ['blue', 'green', 'yellow', 'red'],
+};
+
+var palette_pp = {
+  min: 0,
+  max: 500,
+  palette: ['cyan','blue', 'purple','red'],
+};
+
+Map.addLayer(tavg_clip1, palette_tavg, "tavg1")
+Map.addLayer(pp_clip1, palette_pp, "pp1")
+
+// Exportar data a google drive
+
+Export.image.toDrive({
+  image: tavg_clip1,
+  description: "temp_avg_data1",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip2,
+  description: "temp_avg_data2",
+  scale: 30,
+  region: geometry});
+
+Export.image.toDrive({
+  image: tavg_clip3,
+  description: "temp_avg_data3",
+  scale: 30,
+  region: geometry})
+
+Export.image.toDrive({
+  image: tavg_clip4,
+  description: "temp_avg_data4",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip5,
+  description: "temp_avg_data5",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip6,
+  description: "temp_avg_data6",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip7,
+  description: "temp_avg_data7",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip8,
+  description: "temp_avg_data8",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip9,
+  description: "temp_avg_data9",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip10,
+  description: "temp_avg_data10",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip11,
+  description: "temp_avg_data11",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: tavg_clip12,
+  description: "temp_avg_data12",
+  scale: 30,
+  region: geometry});
+  
+// 
+
+Export.image.toDrive({
+  image: pp_clip1,
+  description: "pp_data1",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip2,
+  description: "pp_data2",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip3,
+  description: "pp_data3",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip4,
+  description: "pp_data4",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip5,
+  description: "pp_data5",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip6,
+  description: "pp_data6",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip7,
+  description: "pp_data7",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip8,
+  description: "pp_data8",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip9,
+  description: "pp_data9",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip10,
+  description: "pp_data10",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip11,
+  description: "pp_data11",
+  scale: 30,
+  region: geometry});
+  
+Export.image.toDrive({
+  image: pp_clip12,
+  description: "pp_data12",
+  scale: 30,
+  region: geometry});
+  

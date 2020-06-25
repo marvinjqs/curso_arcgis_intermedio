@@ -1,0 +1,50 @@
+///////////////////////////////////////////////////
+// TÍTULO : DESCARGA DE DATOS DE CO (MONOXIDO DE CARBONO)
+// PLATAFORMA : SENTINEL 5P
+// AUTOR : MARVIN J. QUISPE SEDANO
+// CONTACTO : marvinjqs@gmail.com
+///////////////////////////////////////////////////
+
+// IMPORTAR UN SHAPEFILE CON EL AREA DE ESTUDIO O DIBUJARLO EN EL MAPA
+
+// geometry = NOMBRE DE LA VARIABLE DEL AREA DE ESTUDIO
+
+var geometry = table.geometry()
+Map.centerObject(geometry);
+Map.addLayer(geometry);
+
+
+// FILTRAR EL DATASET SEGÚN DISTINTOS CRITERIOS
+
+var DATA_CO = ee.ImageCollection('COPERNICUS/S5P/OFFL/L3_CO')
+  .select('CO_column_number_density')   //BANDA DE INTERES
+  .filterDate('2018-10-01', '2018-11-20')    //PERIODO DE TIEMPO DE INTERES
+  .filterBounds(geometry); //AREA DE ESTUDIO
+
+// OBTENER LA IMAGEN SATELITAL DEL MEDIO SEGUN EL PERIODO DE TIEMPO ASIGNADO
+
+var CO_median = ee.Image(DATA_CO.median());
+
+// HACER EL RECORTE PARA NUESTRA AREA DE ESTUDIO
+
+var CO_clip = CO_median.clip(geometry);
+
+// VISUALIZAR EL RASTER RECORTADO
+
+var palette_color = {
+  min: 0,
+  max: 0.05,
+  palette: ['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']
+};
+
+Map.addLayer(CO_clip, palette_color)
+
+// EXPORTAR RASTER A GOOGLE DRIVE
+
+Export.image.toDrive({
+  image: CO_clip,
+  description: 'CO_SENTINEL5P_RASTER',
+  scale: 1100,
+  region: geometry});
+
+

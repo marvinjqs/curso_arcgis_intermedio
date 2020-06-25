@@ -1,0 +1,23 @@
+///////////////////////////////////////////////////
+// TÍTULO : DESCARGA DE DATOS SRTM V3 30m
+// PLATAFORMA : SRTM
+// AUTOR : MARVIN J. QUISPE SEDANO
+// CONTACTO : marvinjqs@gmail.com
+///////////////////////////////////////////////////
+
+// IMPORTAR UN SHAPEFILE CON EL AREA DE ESTUDIO O DIBUJARLO EN EL MAPA
+
+// geometry = NOMBRE DE LA VARIABLE DEL AREA DE ESTUDIO
+
+var geometry = table.geometry() //CONVIERTE TABLE A GEOMETRY
+Map.centerObject(geometry);
+Map.addLayer(geometry);
+
+// FILTRAR EL DATASET SEGÚN DISTINTOS CRITERIOS
+
+var dataset = ee.Image('USGS/SRTMGL1_003')
+  .select('elevation')   //BANDA DE INTERES
+
+// HACER EL RECORTE PARA NUESTRA AREA DE ESTUDIO
+
+var dem_clip = dataset.clip(geometry);
