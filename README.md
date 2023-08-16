@@ -1,14 +1,14 @@
 <h2 align="center">
-  <a href="https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/00_Presentacion/00_Presentacion.html" title="ArcGIS-Intermedio">
+  <a href="https://marvinjqs.github.io/curso_arcgis_intermedio/slides/00_Presentacion/00_Presentacion.html" title="ArcGIS-Intermedio">
     <img alt="Logo-arcgis" src="https://logosolusa.com/wp-content/uploads/parser/ESRI-ArcGIS-Logo-1.png" width="200px" height="200px" />
   </a>
   <br /><br />
   SISTEMAS DE INFORMACIÓN GEOGRÁFICA CON ARCGIS </h2>
 <p align="center">NIVEL INTERMEDIO</p>
-<div align="center"><a href="https://www.linkedin.com/in/marvinjqs/"><img alt="@marvinjonathcn" 
+<div align="center"><a href="https://www.linkedin.com/in/marvinjqs/"><img alt="@marvinjqs" 
 src="https://img.shields.io/badge/Autor-Marvin%20J.%20Quispe-lightgrey" /></a>
 <a href="https://opensource.org/licenses/MIT/"><img alt="Licencia MIT" 
-src="https://img.shields.io/github/license/marvinjonathcn/curso_arcgis_basico?label=License" />
+src="https://img.shields.io/github/license/marvinjqs/curso_arcgis_basico?label=License" />
 </a>  
 <br><a href="https://github.com/Template-Latex/Template-Tesis/"><img alt="Template-Tesis" src="https://latex.ppizarror.com/res/badges/tesis.svg" /></a>
 
@@ -20,12 +20,12 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 
 | Nombre                  | Github        |  Email         |
 |:--------------------    |:--------------| :--------------|
-| Marvin j. Quispe Sedano | [@marvinjonathcn](https://github.com/marvinjonathcn)| marvinjqs@gmail.com |
+| Marvin j. Quispe Sedano | [@marvinjqs](https://github.com/marvinjqs)| marvinjqs@gmail.com |
 
 
 ### TEMARIO
 
-| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/01_Fundamentos_de_los_GIS/01_Fundamentos_de_los_GIS.html)  &nbsp;  |
+| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjqs.github.io/curso_arcgis_intermedio/slides/01_Fundamentos_de_los_GIS/01_Fundamentos_de_los_GIS.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué son los GIS? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Componentes de los GIS |
@@ -44,7 +44,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Servicios WMS |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• El geoprocesamiento |
 
-| 🌏 CLASE 2: [GESTIÓN DE DATOS ESPACIALES](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/02_Gestion_de_datos_espaciales/02_Gestion_de_datos_espaciales.html)  &nbsp;  |
+| 🌏 CLASE 2: [GESTIÓN DE DATOS ESPACIALES](https://marvinjqs.github.io/curso_arcgis_intermedio/slides/02_Gestion_de_datos_espaciales/02_Gestion_de_datos_espaciales.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué son los datos espaciales? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es una base de datos espacial? |
@@ -61,7 +61,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Ejemplo aplicativo 01: Creación de una base de datos espacial de la provincia de Lima |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Ejemplo aplicativo 02: Creación de paquetes de datos espaciales del distrito de La Molina |
 
-| 🌏 CLASE 3: [FUNDAMENTOS DE LA TELEDETECCIÓN](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/03_Fundamentos_de_la_teledeteccion/03_Fundamentos_de_la_teledeteccion.html)  &nbsp;  |
+| 🌏 CLASE 3: [FUNDAMENTOS DE LA TELEDETECCIÓN](https://marvinjqs.github.io/curso_arcgis_intermedio/slides/03_Fundamentos_de_la_teledeteccion/03_Fundamentos_de_la_teledeteccion.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es la teledetección? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• El estudio de la tierra con satélites |
@@ -75,7 +75,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• La firma espectral |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es una imagen satelital? |
 
-| 🌏 CLASE 4: [ANÁLISIS DE SUPERFICIE Y ELEVACIÓN](https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/04_Modelos_de_elevacion/04_Modelos_de_elevacion.html)  &nbsp;  |
+| 🌏 CLASE 4: [ANÁLISIS DE SUPERFICIE Y ELEVACIÓN](https://marvinjqs.github.io/curso_arcgis_intermedio/slides/04_Modelos_de_elevacion/04_Modelos_de_elevacion.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es un modelo? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es un modelo de superficie? |
